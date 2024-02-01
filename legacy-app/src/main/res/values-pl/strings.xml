@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Rejestrator Trasy</string>
+    <string name="google_maps_key">AIzaSyDzGffgYfUDoms0ZHbXlEl32hjGTKM-BfU</string>
+    <string name="google_reverse_geocode_key">AIzaSyAbtLmqnR47d4_xZc7SManXu0iBDl4TP2U</string>
+
+    <string name="Ecodriving.Name">Ekonomiczna jazda</string>
+    <string name="OBD2.Name">Komputer pokładowy</string>
+    <string name="Dtc.Name">Błędy diagnostyczne</string>
+    <string name="History.Calendar.Name">Historia</string>
+    <string name="History.Calendar.Select">Wybierz elementy</string>
+    <string name="History.Calendar.RemoveDialog.Title">Usunąć zaznaczone elementy?</string>
+    <string name="History.Calendar.RemoveDialog.Positive">Usuń</string>
+    <string name="History.Calendar.RemoveDialog.Negative">Anuluj</string>
+
+    <string name="Debug.SamplesRecording.Dialog.Message">Podaj nazwę eksportowanego pliku</string>
+    <string name="Debug.SamplesRecording.Dialog.Positive">Ok</string>
+    <string name="Debug.SamplesRecording.Dialog.Negative">Anuluj</string>
+    <string name="Debug.SamplesRecording.Dialog.Hint">Nazwa pliku</string>
+
+    <string name="EcoDriving.Tile.Label.Speed">Prędkość (km/h)</string>
+    <string name="EcoDriving.Tile.Label.Score">Eko punkty</string>
+    <string name="EcoDriving.Chart.DataSet">Przyspieszenie</string>
+    <string name="EcoDriving.Chart.Optimal">Optymalna wartość</string>
+    <string name="EcoDriving.Chart.NoData">Brak danych</string>
+
+    <string name="GpsStatus.Label.NotEnabled">Odbiornik GPS wyłączony</string>
+    <string name="GpsStatus.Label.NotSupported">Twoje urządzenie nie wspiera odbiornika GPS</string>
+
+    <string name="BluetoothStatus.Label.NotEnabled">Bluetooth wyłączony</string>
+    <string name="BluetoothStatus.Label.NotSupported">Twoje urządzenie nie wspiera bluetooth</string>
+
+    <string name="History.Map.Score">Pkt.</string>
+
+    <string name="Obd.Start.Button.Disabled">Bluetooth jest wyłączony</string>
+    <string name="Obd.Start.Button.NotSupported">Bluetooth jest nie wspierany</string>
+    <string name="Obd.Connect.Device">Łączenie z %1$s (%2$s)</string>
+    <string name="Obd.Connect.Protocol.Default">Automatyczny wybór</string>
+    <string name="Obd.Connect.Step.Connecting">Łączenie</string>
+    <string name="Obd.Connect.Step.Initializing">Protokół %1$s</string>
+    <string name="Obd.Connect.Step.Testing">Testowanie poprawności</string>
+    <string name="Obd.Connect.Cancel">Anuluj</string>
+    <string name="Obd.Connect.Failed">Wystąpił błąd podczas łączenia. Ponów próbę łączenia</string>
+    <string name="Obd.Malfunction.Dialog.Message">Wystąpił błąd urządzenia. Odepnij je z gniazda na kilka sekund.</string>
+    <string name="Obd.Malfunction.Dialog.Button">OK</string>
+
+    <string name="BackgroundWork.Notification.Message">Praca w tle</string>
+
+    <string name="Dtc.NoData">Brak usterek</string>
+    <string name="Dtc.ConfirmDialog.Message">Czy chcesz usunąć wszystkie znalezione usterki?</string>"
+    <string name="Dtc.ConfirmDialog.Negative">Nie</string>
+    <string name="Dtc.ConfirmDialog.Positive">Tak</string>
+
+    <string name="Parameter.Speed.Map.Unit">km/h</string>
+    <string name="Parameter.Speed.Map.Name">Prędkość</string>
+
+    <string name="Parameter.Score.Map.Unit">Pkt.</string>
+    <string name="Parameter.Score.Map.Name">Punkty</string>
+
+    <string name="Parameter.Date.Map.Unit">godz:min</string>
+    <string name="Parameter.Date.Map.Name">Czas</string>
+
+    <string name="Parameter.Rpm.Map.Unit">Obr./min</string>
+    <string name="Parameter.Rpm.Map.Name">Obroty</string>
+
+    <string name="Parameter.CoolantTemp.Map.Unit">°C</string>
+    <string name="Parameter.CoolantTemp.Map.Name">Temp. chłodnicy</string>
+
+    <string name="Parameter.Maf.Map.Unit">g/s</string>
+    <string name="Parameter.Maf.Map.Name">Ciąg powietrza</string>
+
+    <string name="Parameter.Load.Map.Unit">%</string>
+    <string name="Parameter.Load.Map.Name">Obciążenie</string>
+
+    <string name="Parameter.Oil.Map.Unit">°C</string>
+    <string name="Parameter.Oil.Map.Name">Temp. oleju</string>
+
+    <string name="Parameter.AmbientTemp.Map.Unit">°C</string>
+    <string name="Parameter.AmbientTemp.Map.Name">Temp. otoczenia</string>
+
+    <string name="Parameter.BarometricPress.Map.Unit">kPa</string>
+    <string name="Parameter.BarometricPress.Map.Name">Ciś. Atm.</string>
+
+    <string name="DemoMode.Switcher.Text">Tryb demonstracyjny</string>
+
+    <string name="Drawer.Menu.About">O Aplikacji</string>
+    <string name="Drawer.Menu.About.Dialog.Msg">Podziękowania dla icons8.com za ikony znajdujące się w aplikacji</string>
+    <string name="Drawer.Menu.About.Dialog.Button">OK</string>
+
+    <string name="EcoDriving.About.Provider.Title">Źródło danych</string>
+    <string name="EcoDriving.About.Provider.Description.Gps">Źródłem danych dla mechanizmu ekonomicznej jazdy jest odbiornik GPS. Jest to domyślny dostawca danych. Jest on używany do momentu poprawnego połączenia aplikacji z komputerem pokładowym pojazdu.</string>
+    <string name="EcoDriving.About.Provider.Description.Bluetooth">Źródłem danych dla mechanizmu ekonomicznej jazdy jest interfejs ELM327. Po poprawnym nawiązaniu połączenia z komputerem pokładowym aplikacja zaczyna korzystać z danych zwracanych przez komputer pokładowy.</string>
+    <string name="EcoDriving.About.Speed.Title">Prędkość</string>
+    <string name="EcoDriving.About.Speed.Description.GPS">Wykres pokazuje zmianę prędkości na przestrzeni czasu. Dane pochodzą z GPS\'u</string>
+    <string name="EcoDriving.About.Speed.Description.Bluetooth">Wykres pokazuje zmianę prędkości na przestrzeni czasu. Dane pochodzą z interfejsu ELM327</string>
+    <string name="EcoDriving.About.Score.Title">Punktacja</string>
+    <string name="EcoDriving.About.Score.Description">Ocena Twojej trasy. Jest to wartość między 0 punktami, a 100 punktami. 100 pkt oznacza idealną ekonomiczną jazdę</string>
+    <string name="EcoDriving.About.Chart.Title">Przyspieszenie</string>
+    <string name="EcoDriving.About.Chart.Description">Wykres pokazuje zmianę przyspieszenia na przestrzeni czasu. Każde przekroczenie optymalnych wartości jest uwzględniane w ostatecznej ocenie aktualnej trasy.</string>
+
+
+</resources>

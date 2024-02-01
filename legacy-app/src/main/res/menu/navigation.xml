@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_ecodriving"
+        android:icon="@drawable/ic_economic_driving"
+        android:title="@string/Ecodriving.Name" />
+
+    <item
+        android:id="@+id/navigation_obd2"
+        android:icon="@drawable/ic_bluetooth_w"
+        android:title="@string/OBD2.Name" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/ic_show_chart"
+        android:title="@string/History.Calendar.Name" />
+
+    <item
+        android:id="@+id/navigation_dtc"
+        android:icon="@mipmap/ic_engine"
+        android:title="@string/Dtc.Name" />
+
+</menu>
